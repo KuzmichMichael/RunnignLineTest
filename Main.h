@@ -1,12 +1,13 @@
 #pragma once
-
 #include <iostream>
 #include <string>
+#include <vector>
 #include <map>
 #include <chrono>
 #include <thread>
 
-static constexpr const std::chrono::milliseconds delayMs(100);
-static constexpr const int LETTER_SIZE = 8;
-static constexpr const int RUNNING_LINE_HEIGTH = 8;
-static constexpr const int RUNNING_LINE_LENGTH = 100;
+static constexpr const std::chrono::milliseconds delayMs(1);
+static constexpr const int letterHeigth = 8;
+static constexpr const int letterWidth = 5;
+static constexpr const int runningLineHeigth = 8;
+static constexpr const int runningLineLength = 100;
